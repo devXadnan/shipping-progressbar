@@ -1,0 +1,67 @@
+  .upsell-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .progress-bar{
+    background-color: #E2E4E3;
+    display: flex;
+    height: 1em;
+    width: 100%;
+    border-radius: 0.75em;
+    padding: 2px;
+    position: relative;
+    align-items: center;
+    height: 10px;
+  }
+  
+  .progress-bar-done{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75em;
+    height: 100%;
+    transition: 1s ease 0.3s;
+    max-width: 100%;
+  }
+  
+  .free-shipping-icon{
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #E2E4E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .progress-bar::before{
+    content: ' ';
+  }
+
+  .iconicion{
+    box-shadow: 0 0 10px rgba(62, 101, 207, 0.5);
+    border: 1px solid black;
+    transition: 1s ease 0.7s;
+  }
+  .shipping-message{
+    text-align:center;
+  }
+  .free_shipping_notice,.progress-text{
+    font-size:14px;
+  }
+  .progress-text{
+    position: absolute;
+    right: -16px;
+    top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    width: 60px;
+    line-height: 1;
+  }
